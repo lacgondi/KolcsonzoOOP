@@ -1,9 +1,10 @@
 package hu.petrik.kolcsonzo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    static List<Kolcsonozheto> katalogus;
+    static List<Kolcsonozheto> katalogus = new ArrayList<>();
 
     public static void main(String[] args) {
         Konyv konyv1= new Konyv("Dune", "Frank Herbert", "AABBCC-112233");
